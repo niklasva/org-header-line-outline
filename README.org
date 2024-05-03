@@ -1,2 +1,2 @@
-#+TITLE:        org-header-line-outline-mode
+#+TITLE:        org-header-line-outline
 Minor mode for displaying the current heading in org mode's header line
