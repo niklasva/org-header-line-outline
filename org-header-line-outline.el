@@ -32,4 +32,4 @@
               header-line-format '(:eval (ohlo--update-header-line))))
     (setq header-line-format ohlo--old-header)))
 
-(provide 'org-header-line-outline-mode)
+(provide 'org-header-line-outline)
