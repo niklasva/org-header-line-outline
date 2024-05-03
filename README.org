@@ -1,2 +1,9 @@
 #+TITLE:        org-header-line-outline
 Minor mode for displaying the current heading in org mode's header line
+
+#+begin_src emacs-lisp
+(use-package org-header-line-outline
+  :after org
+  :straight (:host github :repo "niklasva/org-header-line-outline")
+  :hook (org-mode-hook . org-header-line-outline-mode))
+#+end_src
